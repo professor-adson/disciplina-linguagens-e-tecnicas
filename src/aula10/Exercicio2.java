@@ -1,9 +1,6 @@
 package aula10;
 
 import java.text.DecimalFormat;
-import java.text.FieldPosition;
-import java.text.NumberFormat;
-import java.text.ParsePosition;
 import java.util.Scanner;
 
 public class Exercicio2 {
