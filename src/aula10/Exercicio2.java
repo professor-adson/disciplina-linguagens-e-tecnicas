@@ -1,5 +1,9 @@
 package aula10;
 
+import java.text.DecimalFormat;
+import java.text.FieldPosition;
+import java.text.NumberFormat;
+import java.text.ParsePosition;
 import java.util.Scanner;
 
 public class Exercicio2 {
@@ -18,6 +22,6 @@ public class Exercicio2 {
         int total = (365 * anos) + (30 * meses) + dias;
         double raiz = Math.sqrt(total);
 
-        System.out.println("A raiz quadrada dos dias (" + total + ") é " + raiz);
+        System.out.println("A raiz quadrada dos dias (" + total + ") é " + new DecimalFormat("0.##").format(raiz));
     }
 }
