@@ -35,7 +35,7 @@ public class Ex3 {
     for (int i = 0; i < matriz.length; i++) {
       System.out.println(Arrays.toString(matriz[i]));
     }
-    double media = ((double) soma)/colunas;
+    double media = (double) soma/colunas;
     System.out.println("Média: " + new DecimalFormat("#0.00").format(media));
   }
 }
